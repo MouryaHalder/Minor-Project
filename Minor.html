@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <!--Minor project-->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Icon on browser tab-->
+    <link rel="shortcut icon" type="x-icon" href="Assets/Images/Content-pics/Logo.png">
+
     <title>Evento</title>
+
     <!-- Google Fonts Link -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
-    <!-- adding logo to tab -->
-    <link rel="shortcut icon" type="icon" href="2.png">
-    <link rel="stylesheet" href="form.css">
-    <script src="form.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!--Social icons-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!--CSS integration-->
+    <link rel="stylesheet" href="minor.css">
+
+
+
+    <!--JAVASCRIPT integration-->
+    <script src="Minor.js" defer></script>
 </head>
+
+
 <body>
     <header>
         <nav class="navbar">
             <span class="hamburger-btn material-symbols-rounded">menu</span>
             <a href="#" class="logo">
-                <img src="2.png" alt="logo">
+                <img src="Assets/Images/Content-pics/Logo.png" alt="logo">
                 <h2>Even<i>to</i></h2>
             </a>
             <ul class="links">
@@ -29,6 +52,9 @@
             <button class="login-btn">LOG IN</button>
         </nav>
     </header>
+
+
+    <!--Login and SIgn Up form with Google button-->
     <div class="blur-bg-overlay"></div>
     <div class="form-popup">
         <span class="close-btn material-symbols-rounded">close</span>
@@ -50,6 +76,9 @@
                     </div>
                     <a href="#" class="forgot-pass-link"><i>Forgot password?</i></a>
                     <button type="submit">Log In</button>
+                    <button type="button" class="login-with-google-btn">
+                        Sign in with Google
+                    </button>
                 </form>
                 <div class="bottom-link">
                     Don't have an account?
@@ -89,17 +118,101 @@
                         </label>
                     </div>
                     <button type="submit">Sign Up</button>
+                    <button type="button" class="login-with-google-btn">
+                        Sign up with Google
+                    </button>
                 </form>
                 <div class="bottom-link">
-                    Already have an account? 
+                    Already have an account?
                     <a href="#" id="login-link">Login</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <!--ABOUT US-->
+    <section class="about-us">
+        <div class="main-img">
+            <img src="Assets/Images/Content-pics/about-6.png" alt="">
+        </div>
+        <div class="text">
+            <h4>About</h4>
+            <h1>We Guarantee Your Business <br> Succeds - Love To Help You</h1>
+            <hr>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste veniam repudiandae modi, recusandae quia neque a minima dolorum odit iure consequuntur obcaecati nemo quidem qui ut nobis! Quaerat, quia eveniet.</p>
+            <div class="last-text">
+                <div class="text1">
+                    <h3>500+</h3>
+                    <h5>Projects Done</h5>
+                </div>
+                <div class="text2">
+                    <h3>20K</h3>
+                    <h5>Happy Clients</h5>
+                </div>
+            </div>
+            </h1>
+        </div>
+    </section>
+    
+    <!--SERVICE CARDS-->
+   
+    <div class="wrapper">
+        <div class="product-img">
+            <img src="Assets/Images/Content-pics/service1.jpg">
+        </div>
+        <div class="product-info">
+            <div class="product-text">
+                <h1>Harvest Vase</h1>
+                <h2>by studio and friends</h2>
+                <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
+                    The surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
+            </div>
+            <div class="product-price-btn">
+                <p><span>78</span>$</p>
+                <button type="button">buy now</button>
+            </div>
+        </div>
+    
 
-    <!--Footer-->
+        <div class="product-img">
+            <img src="Assets/Images/Content-pics/service2.jpg">
+        </div>
+        <div class="product-info">
+            <div class="product-text">
+                <h1>Harvest Vase</h1>
+                <h2>by studio and friends</h2>
+                <p>Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables as<br> functional objects.
+                    The surfaces<br> appear to be sliced and pulled aside,<br> allowing room for growth. </p>
+            </div>
+            <div class="product-price-btn">
+                <p><span>78</span>$</p>
+                <button type="button">buy now</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--BRANDS-->
+    <div class="logos">
+        <div class="logos-slide">
+            <img src="Assets/Images/Brands/budweiser.png">
+            <img src="Assets/Images/Brands/forbes.png">
+            <img src="Assets/Images/Brands/Grab.png">
+            <img src="Assets/Images/Brands/medium.png">
+            <img src="Assets/Images/Brands/mrbeast.png">
+            <img src="Assets/Images/Brands/Spotify.png">
+            <img src="Assets/Images/Brands/Stripe.png">
+            <img src="Assets/Images/Brands/uber.png">
+            <img src="Assets/Images/Brands/Zoom.png">
+        </div>
+    </div>
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
+
+
+    <!--FOOTER-->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -118,7 +231,7 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
                     <h4>Follow Us</h4>
                     <div class="social-links">
@@ -128,23 +241,32 @@
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                    <div class="footer-col">
-                        <h4>Newsletter</h4>
-                        <div class="footer-newsletter">
-                            <ul>
-                                <li><a href="#">Subscribe for latest updates</a></li>
-                            </ul>
-                        </div>
-                        <div class="hm-foot-email">
-                            <div class="foot-email-box">
-                                <input type="email" class="form-control" placeholder="Add Email">
-                            </div><!--/.foot-email-box-->
-                            <div class="foot-email-subscribe">
-                                <span><i class="fa fa-arrow-right"></i></span>
-                            </div><!--/.foot-email-icon-->
-                        </div><!--/.hm-foot-email-->
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <div class="footer-newsletter">
+                        <ul>
+                            <li><a href="#">Subscribe for latest updates</a></li>
+                        </ul>
                     </div>
+                    <div class="hm-foot-email">
+                        <div class="foot-email-box">
+                            <input type="email" class="form-control" placeholder="Add Email">
+                        </div><!--/.foot-email-box-->
+                        <div class="foot-email-subscribe">
+                            <span><i class="fa fa-arrow-right"></i></span>
+                        </div><!--/.foot-email-icon-->
+                    </div><!--/.hm-foot-email-->
+                </div>
+            </div>
+        </div>
         </div>
     </footer>
+
+    <!--modernizr.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+
 </body>
+
 </html>
